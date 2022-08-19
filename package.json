@@ -10,11 +10,11 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "connect-history-api-fallback": "^2.0.0",
     "http-proxy-middleware": "^2.0.6",
     "lite-server": "^2.6.1"
   },
   "dependencies": {
-    "bsconfig.json": "^1.3.2",
-    "connect-history-api-fallback": "^2.0.0"
+    "bsconfig.json": "^1.3.2"
   }
 }

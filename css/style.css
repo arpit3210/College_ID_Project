@@ -117,11 +117,45 @@ body{
     align-items: center;
     margin-bottom: 30px;
 }
+.Flowchart a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #00e7ff70;
+    color: whitesmoke;
+    font-weight:bolder;
+    font-size: 30px;
+}
+.Flowchart a:hover 
+{
+    font-size: 32px;
+    background-color: #ff009bab;
+}
 
+.logo_images a{
+    margin: 20px 6px;
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.logo_images h2{
+    font-size: 30px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo_images a:hover{
+    width: 135px;
+    height: 78px;
+    background-color: aquamarine;
+    border:3px solid #ee94d6;
+    
+    border-radius: 10px;
+overflow: hidden;
+}
 
 .container011 {
     /* background-color: yellow; */
-    height: 40vw;
+    height: 30vw;
     width: 40vw;
     /* font-size: 1vh; */
     font-weight: 1500;
@@ -197,9 +231,9 @@ main button h2:hover {
     color: white;
     font-weight: bolder;
     width: 80vw;
-    height: 80vh;
+    height: 120vh;
     background-color: #01010282;
-    ;
+    
     overflow: auto;
     border-radius: 20px;
 }

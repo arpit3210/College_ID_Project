@@ -48,16 +48,15 @@ https://user-images.githubusercontent.com/75988023/183986183-c4437518-a6a4-4125-
 
 to check your identity_card 
 
-## before every this first Connect with -->> Metamsk Wallet <--  >>>  Testnet -- Rinkeyby testnet
+## before every this first Connect with -->> Metamsk Wallet <--  >>>  Testnet -- GoerliETH testnet
   
 
   Put id--->> 
-  id-1 -> **1234**  ,
-  id-2 -> **9876**  ,
-  id-3 -> **9874**  ,
-  id-4 -> **9873**  ,
+  id-1 -> **AR22001**  ,
+  id-2 -> **AR22002**  ,
 
- these are some already issued ID's on Blockchain, data is faching by through Rinkeby testnet Blockchain.
+
+ these are some already issued ID's on Blockchain, data is faching by through GoerliETH testnet Blockchain.
 
 
 ***FLOW CHART OF THIS PROJECT***

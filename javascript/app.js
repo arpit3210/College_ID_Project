@@ -1,6 +1,7 @@
 function connectToMetMask() {
     ethereum.enable().then(result => {
         console.log("Account: ",result);
+        document.getElementById("Connected").innerHTML=result;
     })
 }
 
@@ -9,7 +10,7 @@ $(document).ready(function () {
     web3 = new Web3(ethereum);
     console.log("Connection Object: ",web3)
 
-    const contractAddress = "0xDb501eCc2222e9CF7FF594f09d7E4C25767e7e80";
+    const contractAddress = "0x8ee58f2Fef97b8683d720eaBbb93D1bDE6A81BeE";
     const contractAbi = [
         {
             "inputs": [

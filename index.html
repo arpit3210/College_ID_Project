@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/responsive.css">
 
-    
+
     <script src="javascript/app.js"></script>
     <script src="javascript/web3.min.js"></script>
     <script>
@@ -27,10 +27,21 @@
                     localStorage.setItem("College Name", result.CollegeName);
                     localStorage.setItem("Year", result.Year);
 
+                    localStorage.setItem("Connected", result);
+
+
+                    // document.getElementById("Connected").innerHTML = localStorage.getItem("Connected");
+
+
                     var url = "idcard.html";
                     window.location.href = url;
                 })
         }
+
+        // window.onload =function () {
+          
+        //     document.getElementById("Connected").innerHTML = localStorage.getItem("Connected");
+        // };
     </script>
 </head>
 
@@ -53,8 +64,14 @@
     <main>
 
         <button onclick="connectToMetMask()">
-            <h2>Connect To Metamask</h2>
-            <p> Note: Only Connect with GoerliETH </p>>
+            <h2><img src="/img/metamask (3).png" alt="">    Connect To Metamask </h2>
+            
+            <!-- <p> Note: Only Connect with Sepolia (11155111) network ETH </p> -->
+           <b> Connected Account-
+            <span id="Connected"></span></b>
+            <br>
+            Note: Only Connect with Sepolia (11155111) network ETH 
+
         </button>
 
         <div class="main-container">
@@ -66,13 +83,13 @@
             <div class="container01">
                 <div class="container011">
                     <p class="heading">
-                    <h1>
+                    <h2>
                         FIND YOUR <p style="color:#7f46fa ;">BLOCKCHAIN</p> BASSED ID CARD
-                    </h1>
+                    </h2>
                     </p>
                     <br>
                     <p>
-                    <h2>Just put your College ID no</h2>
+                    <h3>Just put your College ID no</h3>
                     </p>
 
                 </div>
@@ -80,11 +97,11 @@
                     <p>
                     <h2>College ID No</h2>
                     </p>
-                    <input id="CollegeIDno" type="text" placeholder="Like-AR22001">
+                    <input id="CollegeIDno" type="text" placeholder="Like-AR23001">
                     <br>
 
                     <button onclick="getstudentidDetails()"><b>Find My ID</b></button>
-                    Experimented Id- AR22001
+                    <h5>Experimented Id- AR23001</h5>
 
                 </div>
             </div>
@@ -95,17 +112,17 @@
             <div class="logo_images">
    
                 <a href="https://spheron.network/"><img src="/img/spheron_image.png" alt=""
-                        style="width:130px; height:75px" srcset=""></a>
+                        style="width: 12.069059vw; height:7vw" srcset=""></a>
                 <a href="https://filecoin.io/"> <img src="/img/filecoin_image.png" alt=""
-                        style="width:130px; height:75px" srcset=""></a>
-                <a href="https://www.alchemy.com/"><img src="/img/Alchemy_image" alt="" style="width:130px; height:75px"
+                        style="width: 12.069059vw; height:7vw" srcset=""></a>
+                <a href="https://www.alchemy.com/"><img src="/img/Alchemy_image" alt="" style="width: 12.069059vw; height:7vw"
                         srcset=""></a>
-                <a href="https://ipfs.io/"> <img src="/img/ipfs_image.png" alt="" style="width:130px; height:75px"
+                <a href="https://ipfs.io/"> <img src="/img/ipfs_image.png" alt="" style="width: 12.069059vw; height:7vw"
                         srcset=""></a>
                 <a href="https://metamask.io/"><img src="/img/metamask_image.png" alt=""
-                        style="width:130px; height:75px" srcset=""></a>
+                        style="width: 12.069059vw; height:7vw" srcset=""></a>
                 <a href="https://hardhat.org/"><img src="/img/hardhat_image.jfif" alt=""
-                        style="width:130px; height:75px" srcset=""></a>
+                        style="width: 12.069059vw; height:7vw" srcset=""></a>
 
 
 
@@ -123,7 +140,7 @@
 
         <div class="all-item-center ">
 
-            <p>CopyRight &copy; Arpit Singh Vlogs</p>
+            <p>CopyRight &copy; Arpit Singh </p>
         </div>
     </footer>
 </body>

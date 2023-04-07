@@ -1,5 +1,6 @@
 :root {
-    --main-vg-color: #100501c7;
+    --main-vg-color: #5e37c7f5;
+   
 }
 
 footer {
@@ -23,7 +24,7 @@ footer p {
 nav ul li a {
     color: white;
     text-decoration: none;
-    font-size: x-large;
+    /* font-size: x-large; */
     font-weight: 150;
 }
 
@@ -100,11 +101,36 @@ main {
 }
 
 body{
-    background-image: url(/img/college-photo.jpg);
+    background-image: url(/img/college-photo5.jpg);
+    /* background-image: url(https://source.unsplash.com/8000x4500/?students); */
     background-size:cover;
+    background-position: center;
     background-repeat: no-repeat;
-  
+  animation: change 20s infinite ease-in-out;
 }
+
+
+
+@keyframes change{
+
+    0%{
+        background-image: url(/img/college-photo1.jpg);
+    }
+    25%{
+        background-image: url(/img/college-photo2.jpg);
+    }
+    50%{
+        background-image: url(/img/college-photo3.jpg);
+    }
+    70%{
+        background-image: url(/img/college-photo4.jpg);
+    }
+    100%{
+        background-image: url(/img/college-photo5.jpg);
+    }
+}
+
+
 
 
 .container01 {
@@ -152,6 +178,13 @@ body{
     border-radius: 10px;
 overflow: hidden;
 }
+
+main button
+{
+    border-radius: 20px 20px 20px 20px;
+    overflow: hidden;
+}
+
 
 .container011 {
     /* background-color: yellow; */
@@ -206,9 +239,9 @@ overflow: hidden;
 
 
 .container-help {
-    background-color: #22adc436;
+    background-color: #5e37c7ba;
     color: whitesmoke;
-    height: 75vh;
+    height: 54vh;
     width: 85vw;
     list-style: lower-alph inside;
     border-radius: 20px;
@@ -216,7 +249,7 @@ overflow: hidden;
 }
 
 main button h2 {
-    background-color: aquamarine;
+    background-color: #5e37c7f5;
 }
 
 main button h2:hover {
@@ -231,7 +264,7 @@ main button h2:hover {
     color: white;
     font-weight: bolder;
     width: 80vw;
-    height: 120vh;
+    height: 40vh;
     background-color: #01010282;
     
     overflow: auto;
@@ -247,7 +280,7 @@ main button h2:hover {
     background-color: #0000006b;
     color: white;
     height: 80vh;
-    width: 60vw;
+    width: 86vw;
     font-size: x-large;
     border-radius: 20px;
 }
@@ -266,10 +299,11 @@ main button h2:hover {
 
 
 .idcard00 {
-    background-color: rgba(18, 11, 11, 0.39);
+    background-color: #5e37c7a1;
     height: 60vh;
     width: 80vw;
     display: flex;
+    border-radius: 20px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -305,7 +339,8 @@ main button h2:hover {
 }
 
 .box {
-    background-color: white;
+    background: linear-gradient(160deg, rgba(16,75,56,0.92), 0%, #022923 0.21% 10.76%, #59D994 50.84%, #FF1493);
+    /* background: linear-gradient(#f00 #ee94d6); */
     height: 48vh;
     width: 58vw;
     z-index: 3;
@@ -320,6 +355,7 @@ main button h2:hover {
 }
 
 .image-dp {
+    
     height: 145px;
     width: 145px;
     background-image: url(/img/boy-avatar.png);

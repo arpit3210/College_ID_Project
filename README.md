@@ -1,9 +1,8 @@
 # College_ID_Project
-_This project Deployed on Rinkeby Testnet_
+_This project Deployed on >>SepoliaETH << Testnet_
 
 
-https://spheron.infura-ipfs.io/ipfs/QmRroWdhHSXLP63g24k9S3Pb34DJEjXSVDuScbMf6j94vq
-just click on this link and see deployed web
+
 
 ## This Project is solved the problem of fack Identification of collge Students
 
@@ -48,15 +47,15 @@ https://user-images.githubusercontent.com/75988023/183986183-c4437518-a6a4-4125-
 
 to check your identity_card 
 
-## before every this first Connect with -->> Metamsk Wallet <--  >>>  Testnet -- GoerliETH testnet
+## before every this first Connect with -->> Metamsk Wallet <--  >>>  Testnet -- >>SepoliaETH << testnet
   
 
   Put id--->> 
-  id-1 -> **AR22001**  ,
-  id-2 -> **AR22002**  ,
+  id-1 -> **AR23001**  ,
+  
 
 
- these are some already issued ID's on Blockchain, data is faching by through GoerliETH testnet Blockchain.
+ these are some already issued ID's on Blockchain, data is faching by through >>SepoliaETH << testnet Blockchain.
 
 
 ***FLOW CHART OF THIS PROJECT***

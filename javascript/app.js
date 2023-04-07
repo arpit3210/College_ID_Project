@@ -5,6 +5,7 @@ function connectToMetMask() {
     })
 }
 
+
 $(document).ready(function () {
 
     web3 = new Web3(ethereum);
